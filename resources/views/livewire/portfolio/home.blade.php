@@ -9,29 +9,42 @@
 
             <div class="hero-inner relative z-10 mx-auto grid min-h-[calc(100vh-4rem)] max-w-7xl items-center gap-8 px-5 py-16 sm:px-8 lg:grid-cols-[1fr_1fr] lg:gap-0 lg:px-12">
                 <div class="hero-copy">
-                    <p class="hero-kicker"><span class="availability-dot"></span> Nairobi, Kenya <span class="kicker-divider">/</span> Available for select projects</p>
+                    <p class="hero-kicker">
+                        <span class="availability-dot"></span> Nairobi, Kenya
+                        <span class="kicker-divider">/</span> Available for select projects
+                    </p>
 
-                    <h1 class="hero-title">I build digital systems <em>that move work forward.</em></h1>
+                    <h1 class="hero-title">I build digital systems
+                        <em>that move work forward.</em>
+                    </h1>
 
-                    <p class="hero-intro"><strong>Lermodious Karanja</strong> — full-stack engineer and systems administrator turning complex workflows into clear, dependable software.</p>
+                    <p class="hero-intro">
+                        <strong>Lermodious Karanja</strong> — full-stack engineer and systems administrator turning complex workflows into clear, dependable software.
+                    </p>
 
                     <div class="mt-8 flex flex-wrap gap-3">
-                        <a href="#projects" class="btn-primary">Explore selected work <span aria-hidden="true">↗</span></a>
+                        <a href="#projects" class="btn-primary">Explore selected work
+                            <span aria-hidden="true">↗</span>
+                        </a>
                         <a href="#contact" class="btn-secondary">Start a conversation</a>
                     </div>
 
                     <div class="hero-specialties" aria-label="Specialties">
                         <span>Laravel & Livewire</span>
-                        <span>M-Pesa integrations</span>
                         <span>Linux infrastructure</span>
                     </div>
 
                     <div class="hero-socials">
                         <a href="mailto:karanjalermodious123@gmail.com" class="icon-link" aria-label="Email">
-                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2"><path d="m3 8 7.89 5.26a2 2 0 0 0 2.22 0L21 8"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>
+                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2">
+                                <path d="m3 8 7.89 5.26a2 2 0 0 0 2.22 0L21 8"/>
+                                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                            </svg>
                         </a>
                         <a href="tel:+254792731004" class="icon-link" aria-label="Phone">
-                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2"><path d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1-.502 1.21l-2.257 1.13a11.04 11.04 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498A1 1 0 0 1 21 16.28V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5Z"/></svg>
+                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2">
+                                <path d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1-.502 1.21l-2.257 1.13a11.04 11.04 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498A1 1 0 0 1 21 16.28V19a2 2 0 0 1-2 2h-1C9.716 21 3 14.284 3 6V5Z"/>
+                            </svg>
                         </a>
                     </div>
 
@@ -39,14 +52,35 @@
 
                 <div class="hero-visual" aria-hidden="true">
                     <div class="orbital-stage">
-                        <div class="orbit orbit-one"><span class="orbit-node"></span></div>
-                        <div class="orbit orbit-two"><span class="orbit-node"></span></div>
-                        <div class="orbit orbit-three"><span class="orbit-node"></span></div>
-                        <div class="system-core"><span>LK</span><i></i></div>
-                        <div class="orbit-label orbit-label-top"><span>01</span> SYSTEMS ONLINE</div>
-                        <div class="orbit-label orbit-label-bottom"><span>KE</span> BUILT IN NAIROBI</div>
-                        <div class="signal-card signal-card-top"><span class="signal-mark">↗</span><span>PAYMENTS</span><b>M-Pesa ready</b></div>
-                        <div class="signal-card signal-card-bottom"><span class="signal-mark">⌘</span><span>STACK</span><b>Laravel · Linux</b></div>
+                        <div class="orbit orbit-one">
+                            <span class="orbit-node"></span>
+                        </div>
+                        <div class="orbit orbit-two">
+                            <span class="orbit-node"></span>
+                        </div>
+                        <div class="orbit orbit-three">
+                            <span class="orbit-node"></span>
+                        </div>
+                        <div class="system-core">
+                            <span>LK</span>
+                            <i></i>
+                        </div>
+                        <div class="orbit-label orbit-label-top">
+                            <span>01</span> SYSTEMS ONLINE
+                        </div>
+                        <div class="orbit-label orbit-label-bottom">
+                            <span>KE</span> BUILT IN NAIROBI
+                        </div>
+                        <div class="signal-card signal-card-top">
+                            <span class="signal-mark">↗</span>
+                            <span>PAYMENTS</span>
+                            <b>M-Pesa ready</b>
+                        </div>
+                        <div class="signal-card signal-card-bottom">
+                            <span class="signal-mark">⌘</span>
+                            <span>STACK</span>
+                            <b>Laravel · Linux</b>
+                        </div>
                     </div>
                     <p class="visual-caption">Engineering with purpose <span>·</span> shipping with care</p>
                 </div>
