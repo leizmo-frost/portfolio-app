@@ -236,9 +236,9 @@
                         <h3 class="mb-6 text-2xl font-semibold">Certifications</h3>
                         <div class="space-y-5">
                             @foreach([
-                                ['Full-Stack Web & Mobile Development', 'Laravel, Livewire, NativePHP, Modern Web APIs'],
-                                ['Linux Systems Administration & Shell Scripting', 'CachyOS / Arch / Ubuntu environments'],
-                                ['Enterprise Network Engineering & Hardware Diagnostics', 'Network configuration, LAN/WAN, server deployment'],
+                                ['web artisan', 'Laravel, Livewire, NativePHP, Modern Web APIs'],
+                                ['Linux Systems Administration & Shell Scripting', 'CachyOS '],
+                                ['Hardware Diagnostics', 'Network configuration'],
                             ] as $cert)
                                 <div wire:key="certification-{{ $loop->index }}" class="glass-card p-6">
                                     <h4 class="font-bold text-emerald-400">{{ $cert[0] }}</h4>
