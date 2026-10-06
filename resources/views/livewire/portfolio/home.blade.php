@@ -19,7 +19,7 @@
                     </h1>
 
                     <p class="hero-intro">
-                        <strong>Lermodious Karanja</strong> — full-stack engineer and systems administrator turning complex workflows into clear, dependable software.
+                        <strong>Lermodious Karanja</strong> — web artisan and systems administrator turning complex workflows into clear, dependable software.
                     </p>
 
                     <div class="mt-8 flex flex-wrap gap-3">
@@ -62,25 +62,25 @@
                             <span class="orbit-node"></span>
                         </div>
                         <div class="system-core">
-                            <span>LK</span>
+                            <span>FT</span>
                             <i></i>
                         </div>
-                        <div class="orbit-label orbit-label-top">
+                        {{-- <div class="orbit-label orbit-label-top">
                             <span>01</span> SYSTEMS ONLINE
                         </div>
                         <div class="orbit-label orbit-label-bottom">
                             <span>KE</span> BUILT IN NAIROBI
-                        </div>
-                        <div class="signal-card signal-card-top">
+                        </div> --}}
+                        {{-- <div class="signal-card signal-card-top">
                             <span class="signal-mark">↗</span>
                             <span>PAYMENTS</span>
                             <b>M-Pesa ready</b>
-                        </div>
-                        <div class="signal-card signal-card-bottom">
+                        </div> --}}
+                        {{-- <div class="signal-card signal-card-bottom">
                             <span class="signal-mark">⌘</span>
                             <span>STACK</span>
                             <b>Laravel · Linux</b>
-                        </div>
+                        </div> --}}
                     </div>
                     <p class="visual-caption">Engineering with purpose <span>·</span> shipping with care</p>
                 </div>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="space-y-4 p-7 font-mono text-sm text-slate-400">
                                 <p><span class="text-blue-400">$</span> whoami</p>
-                                <p class="text-slate-200">lermodious@portfolio:~$ full-stack-engineer</p>
+                                <p class="text-slate-200">lermodious@portfolio:~$ web artisan</p>
                                 <p><span class="text-blue-400">$</span> stack --show</p>
                                 <p class="text-violet-300">Laravel · Livewire · PHP · Linux · Databases</p>
                                 <p><span class="text-blue-400">$</span> status</p>
@@ -113,7 +113,7 @@
                     <div>
                         <h3 class="mb-4 text-2xl font-semibold text-blue-400">Who am I?</h3>
                         <p class="mb-6 leading-8 text-slate-400">
-                            Results-driven Full-Stack Web Developer and IT Systems Administrator with a Diploma in ICT
+                            Results-driven web artisan and IT Systems Administrator with a Diploma in ICT
                             and extensive experience engineering web applications, backend APIs, and enterprise IT infrastructure.
                             Proficient in PHP, Laravel, Livewire, NativePHP, JavaScript, MySQL, PostgreSQL, PocketBase,
                             and Linux server environments.
@@ -291,7 +291,7 @@
 
     <footer class="border-t border-white/5 bg-slate-950 py-8">
         <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 sm:px-6 md:flex-row lg:px-8">
-            <p class="text-sm text-slate-500"><span class="gradient-text font-bold">LK</span> © {{ now()->year }} Lermodious Karanja. All rights reserved.</p>
+            <p class="text-sm text-slate-500"><span class="gradient-text font-bold">FT</span> © {{ now()->year }} Frost Tech. All rights reserved.</p>
             <div class="flex gap-6 text-sm text-slate-500">
                 <a href="#home" class="hover:text-blue-400">Home</a>
                 <a href="#about" class="hover:text-blue-400">About</a>
