@@ -82,7 +82,9 @@
                             <b>Laravel · Linux</b>
                         </div> --}}
                     </div>
-                    <p class="visual-caption">Engineering with purpose <span>·</span> shipping with care</p>
+                    <p class="visual-caption">Engineering with purpose
+                        <span>·</span> shipping with care
+                    </p>
                 </div>
             </div>
         </section>
@@ -119,8 +121,7 @@
                             and Linux server environments.
                         </p>
                         <p class="mb-8 leading-8 text-slate-400">
-                            Adept in full SDLC management, M-Pesa and secure payment gateway integrations, database performance
-                            tuning, and cross-functional end-user IT support.
+                            Adept in full SDLC management and end-user IT support.
                         </p>
 
                         <div class="grid grid-cols-2 gap-4">
@@ -153,7 +154,6 @@
                         :skills="[
                             ['name' => 'MySQL / PostgreSQL / SQLite', 'value' => 92],
                             ['name' => 'PocketBase / Supabase / Firebase', 'value' => 88],
-                            ['name' => 'RESTful APIs / M-Pesa Integration', 'value' => 90],
                         ]"
                     />
 
@@ -186,7 +186,7 @@
                     @php
                         $experience = [
                             ['date' => 'Sep 2024 – Present', 'role' => 'IT / Systems Administration', 'company' => 'KBS', 'text' => 'Supported enterprise IT operations, systems, infrastructure, software environments, and end-user technology workflows.'],
-                            ['date' => 'Jan 2023 – Present', 'role' => 'Freelance IT Consultant & Web Developer', 'company' => 'Self-Employed', 'text' => 'End-to-end IT consulting and full-stack web development for SMEs, including Laravel/Livewire/WordPress projects, Linux servers, SSL, backups, hardware diagnostics, and LAN installations.'],
+                            ['date' => 'Jan 2023 – Present', 'role' => 'Freelance IT Consultant & Web Developer', 'company' => 'Self-Employed', 'text' => 'End-to-end IT consulting and web development for SMEs, including Laravel/Livewire/WordPress projects, backups, hardware diagnostics, and LAN installations.'],
                             ['date' => 'Feb 2024 – May 2024', 'role' => 'Web Developer (Contract)', 'company' => 'Abno Software International', 'text' => 'Developed scalable enterprise web applications with Laravel, MySQL and REST APIs. Worked on database performance, payment gateways, Git workflows, and code reviews.'],
                             ['date' => 'Feb 2024 – May 2024', 'role' => 'IT Support Technician', 'company' => 'County Government of Bungoma', 'text' => 'Administered hardware and network infrastructure, workstation deployment, LAN configuration, troubleshooting, and secure access policies.'],
                         ];
