@@ -160,7 +160,10 @@
                     <div class="glass-card p-7">
                         <div class="mb-5 flex items-center gap-4">
                             <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500/10 text-pink-400">
-                                <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/><path d="m19.4 15 .1.1a2 2 0 0 1-2.8 2.8l-.1-.1a2 2 0 0 0-3.4 1.4V19a2 2 0 0 1-4 0v-.2a2 2 0 0 0-3.4-1.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A2 2 0 0 0 3.6 11H3a2 2 0 0 1 0-4h.2a2 2 0 0 0 1.4-3.4l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A2 2 0 0 0 10.8 2H11a2 2 0 0 1 4 0v.2a2 2 0 0 0 3.4 1.4l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1A2 2 0 0 0 22 7h.2a2 2 0 0 1 0 4H22a2 2 0 0 0-1.4 3.4l.1.1Z"/></svg>
+                                <svg viewBox="0 0 24 24" class="h-6 w-6 fill-none stroke-current stroke-2">
+                                    <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/>
+                                    <path d="m19.4 15 .1.1a2 2 0 0 1-2.8 2.8l-.1-.1a2 2 0 0 0-3.4 1.4V19a2 2 0 0 1-4 0v-.2a2 2 0 0 0-3.4-1.4l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A2 2 0 0 0 3.6 11H3a2 2 0 0 1 0-4h.2a2 2 0 0 0 1.4-3.4l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A2 2 0 0 0 10.8 2H11a2 2 0 0 1 4 0v.2a2 2 0 0 0 3.4 1.4l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1A2 2 0 0 0 22 7h.2a2 2 0 0 1 0 4H22a2 2 0 0 0-1.4 3.4l.1.1Z"/>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-semibold">DevOps & Systems</h3>
                         </div>
@@ -185,10 +188,10 @@
 
                     @php
                         $experience = [
-                            ['date' => 'Sep 2024 – Present', 'role' => 'IT / Systems Administration', 'company' => 'KBS', 'text' => 'Supported enterprise IT operations, systems, infrastructure, software environments, and end-user technology workflows.'],
-                            ['date' => 'Jan 2023 – Present', 'role' => 'Freelance IT Consultant & Web Developer', 'company' => 'Self-Employed', 'text' => 'End-to-end IT consulting and web development for SMEs, including Laravel/Livewire/WordPress projects, backups, hardware diagnostics, and LAN installations.'],
+                            ['date' => 'Jan 2025 – Present', 'role' => 'Freelance IT Consultant & Web Developer', 'company' => 'Self-Employed', 'text' => 'End-to-end IT consulting and web development for SMEs, including Laravel/Livewire/WordPress projects, backups, hardware diagnostics, and LAN installations.'],
+                            ['date' => 'Sep 2024 – Part-time', 'role' => 'IT / Systems Administration', 'company' => 'KBS', 'text' => 'Supported enterprise IT operations, systems, infrastructure, software environments, and end-user technology workflows.'],
                             ['date' => 'Feb 2024 – May 2024', 'role' => 'Web Developer (Contract)', 'company' => 'Abno Software International', 'text' => 'Developed scalable enterprise web applications with Laravel, MySQL and REST APIs. Worked on database performance, payment gateways, Git workflows, and code reviews.'],
-                            ['date' => 'Feb 2024 – May 2024', 'role' => 'IT Support Technician', 'company' => 'County Government of Bungoma', 'text' => 'Administered hardware and network infrastructure, workstation deployment, LAN configuration, troubleshooting, and secure access policies.'],
+                            ['date' => 'Jan 2023 – June 2023', 'role' => 'IT Support Technician (Contract)', 'company' => 'County Government of Bungoma', 'text' => 'Administered hardware and network infrastructure, workstation deployment, LAN configuration, troubleshooting, and secure access policies.'],
                         ];
                     @endphp
 
@@ -291,7 +294,9 @@
 
     <footer class="border-t border-white/5 bg-slate-950 py-8">
         <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 sm:px-6 md:flex-row lg:px-8">
-            <p class="text-sm text-slate-500"><span class="gradient-text font-bold">FT</span> © {{ now()->year }} Frost Tech. All rights reserved.</p>
+            <p class="text-sm text-slate-500">
+                <span class="gradient-text font-bold">FT</span> © {{ now()->year }} Frost Tech. All rights reserved.
+            </p>
             <div class="flex gap-6 text-sm text-slate-500">
                 <a href="#home" class="hover:text-blue-400">Home</a>
                 <a href="#about" class="hover:text-blue-400">About</a>

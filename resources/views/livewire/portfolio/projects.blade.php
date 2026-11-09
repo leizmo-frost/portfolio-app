@@ -4,11 +4,7 @@
 
         <div class="mb-10 flex flex-wrap justify-center gap-3">
             @foreach(['all' => 'All', 'web' => 'Web Apps', 'saas' => 'SaaS / Mobile', 'cms' => 'CMS / Portals'] as $key => $label)
-                <button
-                    type="button"
-                    wire:click="setFilter('{{ $key }}')"
-                    class="filter-pill {{ $filter === $key ? 'filter-pill-active' : '' }}"
-                >
+                <button type="button" wire:click="setFilter('{{ $key }}')" class="filter-pill {{ $filter === $key ? 'filter-pill-active' : '' }}">
                     {{ $label }}
                 </button>
             @endforeach
